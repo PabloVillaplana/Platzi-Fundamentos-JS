@@ -29,4 +29,6 @@ NombreYEdad(pablo)
 NombreYEdad(puan)
 
 
-imprimirNombreEnMayusculas()
+function cumpleanos(persona){
+    persona.edad += 1
+}
