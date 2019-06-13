@@ -1,13 +1,13 @@
 var pablo = {
 	nombre: 'Sacha',
 	apellido: 'Villaplana',
-	edad: '21'
+	edad: 21
 }
 
 var puan = {
 	nombre: 'Pablo',
 	apellido: 'Villaplana',
-	edad: '21'
+    edad: 21
 }
 
 function imprimirNombreEnMayusculas(persona) {
@@ -30,5 +30,10 @@ NombreYEdad(puan)
 
 
 function cumpleanos(persona){
-    persona.edad += 1
+    return{
+        ...persona,
+        edad: persona.edad +1
+    }
 }
+
+
